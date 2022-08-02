@@ -26,14 +26,15 @@
 
 
   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
+  <header class="header-area header-sticky background-header">
       <div class="container">
           <div class="row">
               <div class="col-12">
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
                       <a href="index.html" class="logo">
-                          <img src="assets/images/templatemo-eduwell.png" alt="EduWell Template">
+                          <!--<img src="assets/images/templatemo-eduwell.png" alt="EduWell Template">-->
+                          YasCommunity
                       </a>
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
@@ -77,7 +78,7 @@
         </div>
         <div class="col-lg-6">
           <div class="right-image">
-            <img src="assets/images/banner-right-image.png" alt="">
+            <img src="assets/images/logo.png" alt="">
           </div>
         </div>
       </div>
@@ -85,12 +86,17 @@
   </section>
   <!-- ***** Main Banner Area End ***** -->
 
-  <section class="services" id="services">
+  <section class="services" id="community">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="section-heading">
             <h4>our <em>community</em></h4>
+            <p style="font-size: 18px">
+              YasCommunity is a growing community of programmers of all levels and ages. We are interested in 
+              building interesting projects for the open-source community. If you're a complete beginner or
+              someone with load of techy experience, join us to learn more, meet others and participate in events!
+            </p>
           </div>
         </div>
         <div class="col-lg-12">
@@ -229,11 +235,6 @@
   <section class="contact-us" id="contact-us">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8">
-          <div id="map">
-          
-            <!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
-            
         <div class="col">
           <form id="contact" action="https://formspree.io/f/xnqwegke" method="post">
             <div class="row">
@@ -295,6 +296,7 @@
     <script src="assets/js/custom.js"></script>
     <script>
         //according to loftblog tut
+        /*
         $('.nav li:first').addClass('active');
 
         var showSection = function showSection(section, isAnimate) {
@@ -312,7 +314,7 @@
           }
 
         };
-
+*/
         var checkSection = function checkSection() {
           $('.section').each(function () {
             var
@@ -329,12 +331,12 @@
             }
           });
         };
-
+/*
         $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
           e.preventDefault();
           showSection($(this).attr('href'), true);
         });
-
+*/
         $(window).scroll(function () {
           checkSection();
         });

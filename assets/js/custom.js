@@ -2,17 +2,17 @@
 	
 	"use strict";
 
-	$(window).scroll(function() {
-	  var scroll = $(window).scrollTop();
-	  var box = $('.header-text').height();
-	  var header = $('header').height();
+	//$(window).scroll(function() {
+	//  var scroll = $(window).scrollTop();
+	//  var box = $('.header-text').height();
+	//  var header = $('header').height();
 
-	  if (scroll >= box - header) {
-	    $("header").addClass("background-header");
-	  } else {
-	    $("header").removeClass("background-header");
-	  }
-	});
+	//  if (scroll >= box - header) {
+	//    $("header").addClass("background-header");
+	//  } else {
+	//    $("header").removeClass("background-header");
+	//  }
+	//});
 	
 	$('.filters ul li').click(function(){
         $('.filters ul li').removeClass('active');
@@ -176,7 +176,7 @@
 		});
 	}
 
-
+/*
 	// Menu elevator animation
 	$('.scroll-to-section a[href*=\\#]:not([href=\\#])').on('click', function() {
 		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -195,7 +195,8 @@
 			}
 		}
 	});
-
+*/
+/*
 	$(document).ready(function () {
 	    $(document).on("scroll", onScroll);
 	    
@@ -220,7 +221,7 @@
 	        });
 	    });
 	});
-
+*/
 	function onScroll(event){
 	    var scrollPos = $(document).scrollTop();
 	    $('.nav a').each(function () {
