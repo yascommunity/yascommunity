@@ -50,7 +50,7 @@
                             <li><a href="application.html">Be part of the Team</a></li>
                         </ul>
                     </li>
-                    <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+                    <li class="scroll-to-section"><a href="index.html#contact-us">Contact Us</a></li>
                 </ul>        
                 <a class='menu-trigger'>
                     <span>Menu</span>
@@ -78,23 +78,32 @@
   <section class="more-info">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5">
-          <div class="section-heading">
+          <div class="section-heading" style="text-align:center;">
             <h4>Why You Should <em>Join Us</em></h4>
           </div>
-          <p>
-            YasCommunity is a small growing group of people interested in
-            tech. It started off as a 
-            Trust fund nocore broklyn humblebrag mustache
-            pork kitsch, bicycle rights hexagon schlitz keytar palo is
-            santo drinking vinegar fam ramps. 
+          <p style="font-size:16px">
+            The YasCommunity is a vibrant and expanding group of 
+            individuals who are passionate about technology. Initially 
+            founded as a way to assist those interested in open-source 
+            Sneaker Monitors, the community has now grown to encompass a 
+            much wider range of interests and activities. Our goal is to 
+            continue providing valuable resources and support to tech 
+            enthusiasts in the future.
             <br><br>
-            Four dollar toast and
-            edison bulb vinyl, listicle hashtag pug scenester typewrit
-            er yuccie street artboard or whatever to fill place.
+            There are many ways to get involved with the YasCommunity, 
+            including managing our social media accounts, organizing events 
+            on our Discord server, and contributing projects and content. 
+            If you have your own ideas for how to enhance the community, we 
+            welcome your participation and input.
+            <br><br>
+            Currently, all positions within the YasCommunity are voluntary. 
+            However, as we explore new opportunities for generating revenue, 
+            we hope to be able to convert some of these roles into paid 
+            positions in the future.
+            <br><br>
+            If you are interested in joining our team, please fill out the 
+            Google Form provided.
           </p>
-
-        </div>
       </div>
     </div>
   </section>
@@ -112,17 +121,12 @@
       <div class="row">
         <div class="col-lg-12">
           <ul class="social-icons">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="https://twitter.com/YasCommunity"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/yascommunity_/"><i class="fa fa-instagram"></i></a></li>
           </ul>
         </div>
         <div class="col-lg-12">
-          <p class="copyright">Copyright © 2022 EduWell Co., Ltd. All Rights Reserved. 
-          
-          <br>Design: <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+          <p class="copyright">Copyright © 2022 Community. All Rights Reserved. 
         </div>
       </div>
     </div>
@@ -141,26 +145,6 @@
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
     <script>
-        //according to loftblog tut
-        /*
-        $('.nav li:first').addClass('active');
-
-        var showSection = function showSection(section, isAnimate) {
-          var
-          direction = section.replace(/#/, ''),
-          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-          reqSectionPos = reqSection.offset().top - 0;
-
-          if (isAnimate) {
-            $('body, html').animate({
-              scrollTop: reqSectionPos },
-            800);
-          } else {
-            $('body, html').scrollTop(reqSectionPos);
-          }
-
-        };
-*/
         var checkSection = function checkSection() {
           $('.section').each(function () {
             var
@@ -177,12 +161,7 @@
             }
           });
         };
-/*
-        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
-          e.preventDefault();
-          showSection($(this).attr('href'), true);
-        });
-*/
+
         $(window).scroll(function () {
           checkSection();
         });

@@ -903,9 +903,18 @@ section.our-courses ul.nacc li .left-image .price h6 {
   line-height: 50px;
 }
 
+#parent {
+  display: flex;
+  height: 100%; /* Or whatever */
+}
+
+#child {
+  width: 80%;  /* Or whatever */
+  margin: auto;  /* Magic! */
+}
+
 section.our-courses ul.nacc li .right-content {
   padding: 40px 0px;
-  margin-left: 350px;
 }
 
 section.our-courses ul.nacc li .right-content h4 {
