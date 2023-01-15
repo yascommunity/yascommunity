@@ -1162,7 +1162,6 @@ section.contact-us .section-heading {
 }
 
 section.contact-us #contact {
-  margin-left: -100px;
   position: relative;
   z-index: 5;
   background-color: #2c2c2c;
